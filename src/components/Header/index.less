@@ -1,0 +1,127 @@
+body{
+  background: #f0f2f5;
+}
+.ant-layout-header{
+  padding: 0 50px 0 0;
+}
+.dropContainer{
+  padding: 20px;
+}
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background-color: #fff;
+}
+
+
+.navBtns{
+  margin-top:10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.dropHeader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .userLogo{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 12px;
+  }
+  .dropHeaderDes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .nickName{
+
+    }
+    .nation{
+      color: #93999f;
+      margin-right: 12px;
+    }
+    .deposit{
+      color: #93999f;
+    }
+  }
+}
+
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  a{
+    text-decoration:none;
+    color:#333;
+  }
+  .eachBtn{
+    width: 128px;
+    height: 36px;
+    border-radius: 2px;
+    background: #F8FAFC;
+    line-height: 36px;
+    font-size: 12px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    text-align: left;
+    padding-left: 24px;
+    color:#4d555d;
+    .icon{
+      color: #787d82;
+      margin-right: 8px;
+    }
+    span{
+      color:#999;
+    }
+    &:hover{
+      background: #d9dde1;
+      .icon{
+        color: #4d555d;
+      }
+      span{
+        color: #4d555d;
+      }
+    }
+  }
+}
+
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+  -webkit-box-shadow: 0 1px 4px rgba(0,21,41,.08);
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+  height: 64px;
+  line-height: 64px;
+  padding: 0 12px 0 0;
+  position: relative;
+  text-align: right;
+  .headergap{
+    flex:1;
+  }
+  .userSetting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .questions{
+      color:#787d82;
+      font-size:20px;
+      display: flex;
+      &:hover{
+        color:#666;
+      }
+    }
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  }
+
+
+}

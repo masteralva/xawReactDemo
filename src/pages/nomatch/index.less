@@ -1,0 +1,42 @@
+@import "./../../style/default.less";
+.outerContainer{
+  position: relative;
+  width: 100%;
+  height:100vh;
+  .container{
+    width: 100%;
+    height:100%;
+    background-color: @colorJ;
+    .leftSide{
+      display: flex;
+      flex:1;
+      height:calc(100vh);
+      justify-content: center;
+      align-items: center;
+    }
+    .rightSide{
+      display: flex;
+      flex-direction:column;
+      height:calc(100vh);
+      justify-content: center;
+      align-items: center;
+      .title{
+        color: #434e59;
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 72px;
+        margin-bottom: 24px;
+      }
+      .content{
+        color: rgba(0,0,0,.45);
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+
+
+
+

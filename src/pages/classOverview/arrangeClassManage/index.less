@@ -1,0 +1,84 @@
+.arrangeClass{
+
+  .arrangeHeader{
+    display: flex;
+    flex-direction: row;
+    .forBorderOnly{
+      border-right: 1px solid #e8e8e8;
+    }
+    .arrangeHeaderItem{
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      .arrangeHeaderItemTit{
+        text-align: center;
+        color: rgba(0,0,0,.45);
+        font-size: 16px;
+        margin-bottom: 4px;
+      }
+      .arrangeHeaderItemNum{
+        text-align: center;
+        color: rgba(0,0,0,.85);
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+  .arrangeFilter{
+    .arrangeFilterTitle{
+      font-size: 14px;
+      font-weight: 700;
+      margin-right: 18px;
+    }
+  }
+  .arrangeListCard{
+    .ant-list-item-content{
+    }
+    .listContent{
+      display: flex;
+      flex-direction: row;
+      .listFlexImg{
+        flex:1;
+      }
+      .listContentPic{
+        width: 48px;
+        height: 48px;
+        border-radius: 4px;
+      }
+      .flexCol{
+        flex:20;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        justify-content: space-between;
+      }
+      .flexRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      .listNation{
+        flex:2;
+        font-size: 16px;
+        height:48px;
+        line-height: 48px;
+      }
+      .availableTime{
+        flex:4;
+        font-size: 16px;
+        height:48px;
+        line-height: 48px;
+        text-align: center;
+      }
+      .arrangeClassBtn{
+        flex:2;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+        align-items: center;
+      }
+    }
+
+  }
+
+}

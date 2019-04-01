@@ -1,0 +1,116 @@
+.recordHeader{
+  display: flex;
+  flex-direction: row;
+  .forBorderOnly{
+    border-right: 1px solid #e8e8e8;
+  }
+  .recordHeaderBigItem{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    .mb{
+      margin-bottom: 20px;
+    }
+    .recordHeaderRow{
+      display: flex;
+      flex-direction: row;
+      .recordHeaderItem{
+        flex:1;
+      }
+    }
+    .recordHeaderItemTit{
+      text-align: center;
+      color: rgba(0,0,0,.45);
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+    .recordHeaderItemNum{
+      text-align: center;
+      color: rgba(0,0,0,.85);
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}
+.recordList{
+  display: flex;
+  flex-direction: row;
+
+  .name{
+    flex:3;
+    .courseName{
+      color: rgba(0, 0, 0, 0.65);
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 22px;
+    }
+    .chapterName{
+      color: rgba(0, 0, 0, 0.45);
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .startTime{
+    flex:1;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .period{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .status{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .studentNumber{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .spectator{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .stageNumber{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .realPeriod{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .attendance{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .late{
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+  }
+  .gapV{
+    display: flex;
+    flex-direction: column;
+    height:55px;
+    justify-content: space-between;
+  }
+}
+
+.ant-list-lg .ant-list-item{
+   padding-bottom: 0;
+ }
